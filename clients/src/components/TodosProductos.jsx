@@ -47,7 +47,7 @@ const TodosProductos = () => {
                                 <Link className="btn btn-primary" to={`/producto/${producto._id}`}>Detalle</Link>
                                 <Link className="btn btn-warning" to={`/producto/editar/${producto._id}`}>Editar</Link>
                                 <button className="btn btn-danger" onClick={() => borrarProducto(producto._id)}>Eliminar</button>
-                                <button className="btn btn-success">random</button>
+                                
                             </td>
                         </tr>
                     ))

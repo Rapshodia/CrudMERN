@@ -31,7 +31,7 @@ const NuevoProducto = () => {
         <div>
             <h1>Nuevo Producto</h1>
             <form onSubmit={guardarProducto} >
-                <div className="form-groupe">
+                <div className="form-group">
                     <label htmlFor="nombre">Ingrese Nombre:</label>
                     <input type="text" id="nombre" name="nombre" value={nombre} onChange={(e) => setNombre(e.target.value)}/>
                 </div>
